@@ -6,6 +6,7 @@ Steps on getting started
 > Update Bunifu Framework DLLs
 
 Screenshot
-https://github.com/bunifu-framework/Social-APP-Dark-UI/blob/master/sc.PNG
+
+![](https://github.com/bunifu-framework/Social-APP-Dark-UI/blob/master/sc.PNG)
 
 Try/Buy [https://bunifuframework.com]
