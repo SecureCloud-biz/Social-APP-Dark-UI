@@ -32,42 +32,68 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Documents\Visual Studio 2017\Projects\bunifu_projects\bunifu-framework-winforms-repo\BunifuDataViz\bin\Debug\Bunifu.Core.dll</HintPath>
+    <Reference Include="Bunifu.Core">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown, Version=1.5.4.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
     </Reference>
-    <Reference Include="BunifuDataViz 1.0.2, Version=1.0.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\BunifuDataViz 1.0.2.dll</HintPath>
+    <Reference Include="BunifuDataViz">
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Advanced\BunifuDataViz.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\CSharp\Deploy\1.8.0.0\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed" />
-    <Reference Include="ShadowPanel">
-      <HintPath>..\..\..\OneDrive\Bunifu UI winforms 1.5.4.1\ShadowPanel.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
